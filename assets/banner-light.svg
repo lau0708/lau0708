@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Lau - AI Agent Engineering">
+  <defs>
+    <linearGradient id="bgL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f7f9fc"/>
+      <stop offset="100%" stop-color="#e9eff8"/>
+    </linearGradient>
+    <pattern id="gridL" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#dde5f0" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bgL)"/>
+  <rect width="1000" height="260" fill="url(#gridL)" opacity="0.7"/>
+
+  <!-- agent graph motif -->
+  <g stroke="#b9c9e0" stroke-width="1.6" fill="none">
+    <path d="M712 132 L800 78"/>
+    <path d="M712 132 L800 186"/>
+    <path d="M800 78 L884 132"/>
+    <path d="M800 186 L884 132"/>
+    <path d="M884 132 L956 72"/>
+    <path d="M884 132 L956 194"/>
+  </g>
+  <g fill="#ffffff" stroke="#1f6feb" stroke-width="2">
+    <circle cx="712" cy="132" r="7"/>
+    <circle cx="800" cy="78" r="10"/>
+    <circle cx="800" cy="186" r="10"/>
+    <circle cx="956" cy="72" r="6"/>
+    <circle cx="956" cy="194" r="6"/>
+  </g>
+  <circle cx="884" cy="132" r="17" fill="#1f6feb"/>
+  <circle cx="884" cy="132" r="7" fill="#ffffff"/>
+
+  <!-- headline -->
+  <text x="70" y="128" font-family="'SF Pro Display','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#0d1117">Lau</text>
+  <rect x="72" y="150" width="46" height="3" rx="1.5" fill="#1f6feb"/>
+  <text x="72" y="188" font-family="'SF Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" letter-spacing="5.2" fill="#5b6673">AI AGENT ENGINEERING</text>
+  <text x="72" y="218" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" letter-spacing="0.4" fill="#8892a0">memory that holds &#183; actions that are gated &#183; outcomes that are evaluated</text>
+</svg>

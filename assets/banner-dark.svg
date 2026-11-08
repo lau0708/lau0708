@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Lau - AI Agent Engineering">
+  <defs>
+    <linearGradient id="bgD" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#11161d"/>
+      <stop offset="100%" stop-color="#161d27"/>
+    </linearGradient>
+    <pattern id="gridD" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#222c3a" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bgD)"/>
+  <rect width="1000" height="260" fill="url(#gridD)" opacity="0.75"/>
+
+  <!-- agent graph motif -->
+  <g stroke="#3b4c66" stroke-width="1.6" fill="none">
+    <path d="M712 132 L800 78"/>
+    <path d="M712 132 L800 186"/>
+    <path d="M800 78 L884 132"/>
+    <path d="M800 186 L884 132"/>
+    <path d="M884 132 L956 72"/>
+    <path d="M884 132 L956 194"/>
+  </g>
+  <g fill="#0d1117" stroke="#4a90ff" stroke-width="2">
+    <circle cx="712" cy="132" r="7"/>
+    <circle cx="800" cy="78" r="10"/>
+    <circle cx="800" cy="186" r="10"/>
+    <circle cx="956" cy="72" r="6"/>
+    <circle cx="956" cy="194" r="6"/>
+  </g>
+  <circle cx="884" cy="132" r="17" fill="#4a90ff" fill-opacity="0.9"/>
+  <circle cx="884" cy="132" r="7" fill="#0d1117"/>
+
+  <!-- headline -->
+  <text x="70" y="128" font-family="'SF Pro Display','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#e6edf3">Lau</text>
+  <rect x="72" y="150" width="46" height="3" rx="1.5" fill="#4a90ff"/>
+  <text x="72" y="188" font-family="'SF Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" letter-spacing="5.2" fill="#8b96a5">AI AGENT ENGINEERING</text>
+  <text x="72" y="218" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" letter-spacing="0.4" fill="#6d7887">memory that holds &#183; actions that are gated &#183; outcomes that are evaluated</text>
+</svg>
