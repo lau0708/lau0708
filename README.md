@@ -4,6 +4,10 @@
   <img alt="Lau · AI Agent Engineering" src="./assets/banner-light.svg" width="100%">
 </picture>
 
+<p align="center">
+  <a href="https://lau0708.github.io/">🌐 lau0708.github.io · 个人站与博客</a>
+</p>
+
 ### AI Agent / LLM 应用工程师
 
 做 Agent 系统，能跑通只是起点。我把更多时间花在三个问题上：**它记住的东西是不是真的**、**它动手之前谁说了算**、**它做完了凭什么说做对了**。
